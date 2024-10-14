@@ -94,6 +94,7 @@ void RSDK::RegisterObject(Object **staticVars, const char *name, uint32 entityCl
         ++objectClassCount;
     }
 }
+//hi
 
 #if RETRO_REV02 || RETRO_USE_MOD_LOADER
 void RSDK::RegisterStaticVariables(void **staticVars, const char *name, uint32 classSize)
